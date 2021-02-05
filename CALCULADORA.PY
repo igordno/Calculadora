@@ -11,10 +11,11 @@ if operacao =='+':
     resultado = numero1 + numero2
 elif operacao =='-':
     resultado = numero1 - numero2
+elif operacao =='*':
+    resultado = numero1 * numero2
+elif operacao =='/':
+    resultado = numero1 / numero2
 else:
     resultado = 'Operação inválida!'
 
 print(str(numero1) + ' ' + str(operacao) + ' ' + str(numero2) + ' = ' + str(resultado))
-
-
-numero_1 = 0
